@@ -4,7 +4,7 @@ use git2::{Cred, FetchOptions, RemoteCallbacks, Repository};
 use std::env;
 use tempfile::TempDir;
 
-use std::path::{Path, PathBuf};
+use std::path::Path;
 use std::sync::mpsc::{self, Receiver, SyncSender, TryRecvError};
 use std::thread::JoinHandle;
 
